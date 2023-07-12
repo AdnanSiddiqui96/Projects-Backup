@@ -1,0 +1,35 @@
+Project Name: "To-Do List Manager"
+Description:
+    Create a web application that allows users to manage their to-do lists. Users should
+    be able to register an account, log in, and then create, update, and delete their
+    to-do items. Each to-do item should have a title, description, and status (e.g.,
+    completed or not completed).
+
+Requirements:
+    User Registration and Authentication:
+    Users should be able to register an account with a username and password.
+    Implement authentication and authorization to allow only logged-in users to
+    access the to-do list functionality.
+    
+To-Do List Functionality:
+    Once logged in, users should be able to create new to-do items with a title,
+    description, and initial status (not completed).
+    Users should be able to view their existing to-do items in a list.
+    Implement functionality to update the status of a to-do item (e.g., mark as
+    completed or not completed).
+    Allow users to edit the title and description of their to-do items.
+    Users should be able to delete a to-do item.
+
+User Interface:
+    Design a user-friendly interface for the web application using HTML, CSS,
+    and Bootstrap (or any other front-end framework of your choice).Display appropriate messages
+    to users for successful operations (e.g., item created, item updated, item deleted).
+
+Deployment:
+    Deploy your Django project on a hosting platform like Heroku or PythonAnywhere.
+    This project will help you practice Django's core concepts, such as models, views,
+    templates, forms, authentication, and database operations. It will also provide
+    hands-on experience with user registration, authentication, and basic CRUD operations.
+    Remember to break down the project into smaller tasks, create a virtual environment,
+    and follow Django's best practices for project structure and code organization.
+    Happy coding!

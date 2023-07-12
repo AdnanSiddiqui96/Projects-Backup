@@ -1,0 +1,48 @@
+                Scenario: Movie Ticket Reservation System
+
+        You are tasked with building a movie ticket reservation system using Django.
+        The system should allow users to browse movies, select showtimes, 
+        and reserve seats for their preferred movie
+        and showtime.
+
+        
+Requirements:
+    User Registration and Authentication:
+    Users should be able to register an account and log in.
+    Use Django's built-in authentication system for user management.
+
+
+Movie Management:
+    Implement a database model to store movie information, including title, description, genre, duration, and poster image.
+    Create a page to list all available movies, along with their details.
+    Allow administrators to add, update, and delete movies.
+
+
+Showtime Management:
+    Implement a database model to store showtime information, including movie, date, time, and available seats.
+    Create a page to display showtimes for each movie.
+    Allow administrators to add, update, and delete showtimes.
+
+
+Seat Reservation:
+    When a user selects a movie and showtime, display a seating arrangement diagram.
+    Users should be able to select available seats and reserve them.
+    Ensure that seats are locked during the reservation process to prevent multiple users from reserving the same seat simultaneously.
+    Implement a timeout mechanism to release locked seats if the reservation is not completed within a certain time.
+
+
+User Dashboard:
+    Users should have a dashboard where they can view their reservations and manage their bookings.
+    Provide an option to cancel reservations.
+
+
+Admin Panel:
+    Implement an admin panel using Django's built-in admin interface.
+    Admins should have the ability to manage movies, showtimes, and view reservations.
+    
+Additional Features (optional):
+    Implement a search functionality to search for movies by title or genre.
+    Implement pagination for the movie list and reservation history.
+    Provide email notications for successful reservations and reservation cancellations.
+    Remember to follow Django's best practices, 
+    such as using Django's ORM for database operations, implementing proper URL
